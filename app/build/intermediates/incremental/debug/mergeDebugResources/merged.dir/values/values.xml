@@ -6,6 +6,15 @@
     <color name="black">#FF000000</color>
     <color name="call_notification_answer_color">#1d873b</color>
     <color name="call_notification_decline_color">#d93025</color>
+    <color name="monopoly_blue">#0072BB</color>
+    <color name="monopoly_cyan">#00FFFF</color>
+    <color name="monopoly_lime_green">#8DCF5E</color>
+    <color name="monopoly_maroon">#9C183F</color>
+    <color name="monopoly_orange">#F15A29</color>
+    <color name="monopoly_orange_bis">#FFA500</color>
+    <color name="monopoly_purple">#532F5B</color>
+    <color name="monopoly_rose">#FF69B4</color>
+    <color name="monopoly_yellow">#F9CE30</color>
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
     <color name="purple_200">#FFBB86FC</color>
@@ -105,7 +114,7 @@
     <item name="wrapped_composition_tag" type="id"/>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="androidx_startup" translatable="false">androidx.startup</string>
-    <string name="app_name">My Application</string>
+    <string name="app_name">TestEcranJeux</string>
     <string name="call_notification_answer_action">Answer</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Decline</string>
@@ -123,7 +132,6 @@
     <string name="expanded">Expanded</string>
     <string name="in_progress">In progress</string>
     <string name="indeterminate">Partially checked</string>
-    <string name="jeux_catane">Jeux Catane</string>
     <string name="navigation_menu">"Navigation menu"</string>
     <string name="not_selected">Not selected</string>
     <string name="off">Off</string>
@@ -156,7 +164,7 @@
         <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
     <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
-    <style name="Theme.MyApplication" parent="android:Theme.Material.Light.NoActionBar"/>
+    <style name="Theme.TestEcranJeux" parent="android:Theme.Material.Light.NoActionBar"/>
     <style name="Widget.Compat.NotificationActionContainer" parent=""/>
     <style name="Widget.Compat.NotificationActionText" parent=""/>
     <declare-styleable name="ActivityNavigator">

@@ -1,4 +1,4 @@
-fr.thomas.myapplication
+fr.sancci.testecranjeux
 attr action
 attr alpha
 attr argType
@@ -43,6 +43,15 @@ color androidx_core_secondary_text_default_material_light
 color black
 color call_notification_answer_color
 color call_notification_decline_color
+color monopoly_blue
+color monopoly_cyan
+color monopoly_lime_green
+color monopoly_maroon
+color monopoly_orange
+color monopoly_orange_bis
+color monopoly_purple
+color monopoly_rose
+color monopoly_yellow
 color notification_action_color_filter
 color notification_icon_bg_color
 color purple_200
@@ -75,10 +84,19 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
-drawable catane
-drawable ic_action_calendar
-drawable ic_action_home
-drawable ic_action_profil
+drawable bang_the_great_train_robbery_extension
+drawable barcelona
+drawable baseline_casino_24
+drawable cafe_del_gatto
+drawable carte_category_image
+drawable dice
+drawable elios
+drawable enfant_category_image
+drawable event
+drawable exterieur_category_image
+drawable fluffy_valley
+drawable great_western_trail_nouvelle_zelande
+drawable home
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video
@@ -99,6 +117,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable person
+drawable solo_category_image
+drawable solo_image
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -214,7 +235,6 @@ string dropdown_menu
 string expanded
 string in_progress
 string indeterminate
-string jeux_catane
 string navigation_menu
 string not_selected
 string off
@@ -234,7 +254,7 @@ style TextAppearance_Compat_Notification_Info
 style TextAppearance_Compat_Notification_Line2
 style TextAppearance_Compat_Notification_Time
 style TextAppearance_Compat_Notification_Title
-style Theme_MyApplication
+style Theme_TestEcranJeux
 style Widget_Compat_NotificationActionContainer
 style Widget_Compat_NotificationActionText
 styleable ActivityNavigator android_name action data dataPattern targetPackage
