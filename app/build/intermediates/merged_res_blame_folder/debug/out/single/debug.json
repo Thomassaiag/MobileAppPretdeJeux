@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/drawable-mdpi_ic_action_calendar.png.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/drawable-mdpi/ic_action_calendar.png"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/drawable-anydpi_ic_action_home.xml.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/drawable-anydpi/ic_action_home.xml"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/drawable-hdpi_ic_action_home.png.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/drawable-hdpi/ic_action_home.png"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/xml_backup_rules.xml.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/drawable-xxhdpi_ic_action_home.png.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/drawable-xxhdpi/ic_action_home.png"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/drawable-hdpi_ic_action_calendar.png.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/drawable-hdpi/ic_action_calendar.png"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/drawable-mdpi_ic_action_home.png.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/drawable-mdpi/ic_action_home.png"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/drawable-xhdpi_ic_action_calendar.png.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/drawable-xhdpi/ic_action_calendar.png"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/drawable-hdpi_ic_action_profil.png.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/drawable-hdpi/ic_action_profil.png"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/drawable-anydpi_ic_action_calendar.xml.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/drawable-anydpi/ic_action_calendar.xml"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/drawable-nodpi_catane.jpg.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/drawable-nodpi/catane.jpg"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/drawable-xhdpi_ic_action_profil.png.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/drawable-xhdpi/ic_action_profil.png"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/drawable_ic_launcher_background.xml.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/drawable-anydpi_ic_action_profil.xml.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/drawable-anydpi/ic_action_profil.xml"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/drawable-mdpi_ic_action_profil.png.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/drawable-mdpi/ic_action_profil.png"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/drawable-xxhdpi_ic_action_profil.png.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/drawable-xxhdpi/ic_action_profil.png"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/xml_data_extraction_rules.xml.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/drawable-xxhdpi_ic_action_calendar.png.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/drawable-xxhdpi/ic_action_calendar.png"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/drawable-xhdpi_ic_action_home.png.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/drawable-xhdpi/ic_action_home.png"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "fr.thomas.myapplication.app-merged_res-50:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "fr.thomas.myapplication.app-main-52:/mipmap-xhdpi/ic_launcher.webp"
+    }
+]
