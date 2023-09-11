@@ -9,13 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21393ce4-2a98-4630-a8ee-4e4dbc316e32" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/fr/thomas/myapplication/BottomBar.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/fr/thomas/myapplication/FakeScreen.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/fr/thomas/myapplication/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/fr/thomas/myapplication/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/fr/thomas/myapplication/OneGameScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/fr/thomas/myapplication/OneGameScreen.kt" afterDir="false" />
-    </list>
+    <list default="true" id="21393ce4-2a98-4630-a8ee-4e4dbc316e32" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
