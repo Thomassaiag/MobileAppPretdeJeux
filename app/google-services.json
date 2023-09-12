@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "229198147681",
+    "firebase_url": "https://mobileapppretdejeux-default-rtdb.firebaseio.com",
+    "project_id": "mobileapppretdejeux",
+    "storage_bucket": "mobileapppretdejeux.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229198147681:android:05c7870c50acf18275ba20",
+        "android_client_info": {
+          "package_name": "fr.sancci.testecranjeux"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjF0sArKybuAq5wl9kz28K9nMdmgda_jc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

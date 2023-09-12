@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -61,6 +62,7 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation ("androidx.compose.material:material:1.5.1")
     implementation("androidx.navigation:navigation-runtime-ktx:2.7.2")
+    implementation("com.google.firebase:firebase-database-ktx:20.2.2")
     testImplementation("junit:junit:4.13.2")
     implementation ("androidx.compose.material:material-icons-core")
     implementation ("androidx.compose.material:material-icons-extended")
