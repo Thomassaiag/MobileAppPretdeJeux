@@ -63,6 +63,7 @@ dependencies {
     implementation ("androidx.compose.material:material:1.5.1")
     implementation("androidx.navigation:navigation-runtime-ktx:2.7.2")
     implementation("com.google.firebase:firebase-database-ktx:20.2.2")
+    implementation("com.google.firebase:firebase-storage-ktx:20.2.1")
     testImplementation("junit:junit:4.13.2")
     implementation ("androidx.compose.material:material-icons-core")
     implementation ("androidx.compose.material:material-icons-extended")
