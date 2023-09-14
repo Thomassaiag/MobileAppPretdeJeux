@@ -84,44 +84,18 @@ func getAllGames(w http.ResponseWriter, r *http.Request){
 }
 
 
-func createGame2(w http.ResponseWriter, r *http.Request){
-	w.Header().Set("Content-Type", "application/json")
-
-	db, err :=getDB()
-	if err != nil {
-		panic(err.Error())
-	}
-
-	result, err :=  db.Exec("INSERT INTO tb_allgames(GameName, GameDescription, MinNumberOfPlayers, MaxNumberOfPlayers, MinimumAge) VALUES('Dice Forge', 'Super Jeu', 2, 4, 10)")
-
-}
-
 func createGame(w http.ResponseWriter, r *http.Request){
 	w.Header().Set("Content-Type", "application/json")
 
 	// game:= Game{0, "Dice Forge", "Super Super Jeu", 2, 4, 10}
-
-  
 	db, err :=getDB()
 	if err != nil {
 		panic(err.Error())
 	}
-
-	result, err :=  db.Exec("INSERT INTO tb_allgames(GameName, GameDescription, MinNumberOfPlayers, MaxNumberOfPlayers, MinimumAge) VALUES('Dice Forge', 'Super Jeu', 2, 4, 10)")
-// _, err:=db.Exec("INSERT INTO tb_allgames(GameName, GameDescription, MinNumberOfPlayers, MaxNumberOfPlayers, MinimumAge) VALUES(?, ?, ?, ?, ?)", game.GameName, game.GameDescription, game.MinNumberOfPlayers, game.MaxNumberOfPlayers, game.MinimumAge)
+	_, err =  db.Exec("INSERT INTO tb_allgames(GameName, GameDescription, MinNumberOfPlayers, MaxNumberOfPlayers, MinimumAge) VALUES('Dice Forge', 'Super Jeu', 2, 4, 10)")
 	if err!=nil{
 		panic(err.Error())
-	}
-// query:=`INSERT INTO tb_allgames() VALUES INSERT INTO tb_allgames(GameName, GameDescription, MinNumberOfPlayers, MaxNumberOfPlayers, MinimumAge) 
-// VALUES($1, $2, $3, $4, $5) RETURNING ID`
-
-	
-	
-
-	// result:= db.QueryRow(query, game.GameName, game.GameDescription, game.MinNumberOfPlayers, game.MaxNumberOfPlayers, game.MinimumAge).Scan(&pk)
-	// if result!=nil{
-	// 	panic(err.Error())
-	// }
+	}	
 
 }
 
@@ -162,3 +136,5 @@ func getGame(w http.ResponseWriter, r *http.Request){
 // 	stmt, err :=db.Prepare("Update tb_allGame SET GameName = ?, GameDescription = ?, GameMinNumberOfPlayers = ?, GameMaxNumberOfPlayers= ?, MinimumAge = ? WHERE GameID=?")
 
 // }
+
+
