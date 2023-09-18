@@ -10,6 +10,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"strconv"
 )
 
 type Game struct {
@@ -98,9 +99,9 @@ func createGame(w http.ResponseWriter, r *http.Request) {
 	json.Unmarshal(body, &keyValMap)
 	GameName := keyValMap["GameName"]
 	GameDescription := keyValMap["GameDescription"]
-	GameMinNumberOfPlayers := keyValMap["GameMinNumberOfPlayers"]
-	GameMaxNumberOfPlayers := keyValMap["GameMaxNumberOfPlayers"]
-	GameMinimumAge := keyValMap["GameMinimumAge"]
+	GameMinNumberOfPlayers, err := convertToInt(keyValMap["GameMinNumberOfPlayers"])
+	GameMaxNumberOfPlayers, err := convertToInt(keyValMap["GameMaxNumberOfPlayers"])
+	GameMinimumAge, err := convertToInt(keyValMap["GameMinimumAge"])
 
 	_, err = stmt.Exec(GameName, GameDescription, GameMinNumberOfPlayers, GameMaxNumberOfPlayers, GameMinimumAge)
 	if err != nil {
@@ -158,9 +159,15 @@ func updateGame(w http.ResponseWriter, r *http.Request) {
 		panic(err.Error())
 	}
 	body, err := io.ReadAll(r.Body)
+	if err != nil {
+		panic(err.Error())
+	}
 	params := mux.Vars(r)
 
 	stmt, err := db.Prepare("Update tb_allGame SET GameName = ?, GameDescription = ?, GameMinNumberOfPlayers = ?, GameMaxNumberOfPlayers= ?, MinimumAge = ? WHERE GameID=?")
+	if err != nil {
+		panic(err.Error())
+	}
 
 	keyValMap := make(map[string]string)
 
@@ -168,9 +175,9 @@ func updateGame(w http.ResponseWriter, r *http.Request) {
 
 	GameName := keyValMap["GameName"]
 	GameDescription := keyValMap["GameDescription"]
-	GameMinNumberOfPlayers := keyValMap["GameMinNumberOfPlayers"]
-	GameMaxNumberOfPlayers := keyValMap["GameMaxNumberOfPlayers"]
-	GameMinimumAge := keyValMap["GameMinimumAge"]
+	GameMinNumberOfPlayers, _  := convertToInt(keyValMap["GameMinNumberOfPlayers"])
+	GameMaxNumberOfPlayers, _  := convertToInt(keyValMap["GameMaxNumberOfPlayers"])
+	GameMinimumAge, _  := convertToInt(keyValMap["GameMinimumAge"])
 
 	_, err = stmt.Exec(GameName, GameDescription, GameMinNumberOfPlayers, GameMaxNumberOfPlayers, GameMinimumAge, params["id"])
 	if err != nil {
@@ -178,3 +185,13 @@ func updateGame(w http.ResponseWriter, r *http.Request) {
 	}
 
 }
+
+
+func convertToInt(stringInput string) (int, error) {
+	Id, err :=strconv.Atoi(stringInput)
+	if err!=nil{
+		panic(err.Error())
+	}
+	return Id, err
+}
+

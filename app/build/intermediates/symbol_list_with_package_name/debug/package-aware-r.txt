@@ -1,4 +1,4 @@
-fr.sancci.testecranjeux
+fr.thomas.mobileAppPretJeux
 attr action
 attr alpha
 attr argType
@@ -89,6 +89,7 @@ drawable barcelona
 drawable baseline_casino_24
 drawable cafe_del_gatto
 drawable carte_category_image
+drawable catane
 drawable dice
 drawable elios
 drawable enfant_category_image
@@ -97,6 +98,9 @@ drawable exterieur_category_image
 drawable fluffy_valley
 drawable great_western_trail_nouvelle_zelande
 drawable home
+drawable ic_action_calendar
+drawable ic_action_home
+drawable ic_action_profil
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video
@@ -235,6 +239,7 @@ string dropdown_menu
 string expanded
 string in_progress
 string indeterminate
+string jeux_catane
 string navigation_menu
 string not_selected
 string off

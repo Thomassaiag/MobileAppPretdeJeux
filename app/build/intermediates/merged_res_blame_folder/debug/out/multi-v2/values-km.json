@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "fr.sancci.testecranjeux.app-mergeDebugResources-49:/values-km/values-km.xml",
+            "outputFile": "fr.thomas.mobileAppPretJeux.app-mergeDebugResources-49:/values-km/values-km.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sandr\\.gradle\\caches\\transforms-3\\9cc0b765caf38179c734d10b72e03aed\\transformed\\material3-1.0.0\\res\\values-km\\values-km.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,134,206",
-                        "endColumns": "78,71,77",
-                        "endOffsets": "129,201,279"
-                    },
-                    "to": {
-                        "startLines": "11,14,16",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "991,1272,1432",
-                        "endColumns": "78,71,77",
-                        "endOffsets": "1065,1339,1505"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\sandr\\.gradle\\caches\\transforms-3\\2f91f78aad29bc09bed2ae8766f472de\\transformed\\ui-release\\res\\values-km\\values-km.xml",
+                    "source": "C:\\Users\\Moi\\.gradle\\caches\\transforms-3\\2f91f78aad29bc09bed2ae8766f472de\\transformed\\ui-release\\res\\values-km\\values-km.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sandr\\.gradle\\caches\\transforms-3\\c8117906e20d0ffa520fa3bda5248582\\transformed\\core-1.10.1\\res\\values-km\\values-km.xml",
+                    "source": "C:\\Users\\Moi\\.gradle\\caches\\transforms-3\\9cc0b765caf38179c734d10b72e03aed\\transformed\\material3-1.0.0\\res\\values-km\\values-km.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,134,206",
+                        "endColumns": "78,71,77",
+                        "endOffsets": "129,201,279"
+                    },
+                    "to": {
+                        "startLines": "11,14,16",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "991,1272,1432",
+                        "endColumns": "78,71,77",
+                        "endOffsets": "1065,1339,1505"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Moi\\.gradle\\caches\\transforms-3\\c8117906e20d0ffa520fa3bda5248582\\transformed\\core-1.10.1\\res\\values-km\\values-km.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

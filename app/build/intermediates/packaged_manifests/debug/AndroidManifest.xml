@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="fr.sancci.testecranjeux"
+    package="fr.thomas.mobileAppPretJeux"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -9,10 +9,10 @@
         android:targetSdkVersion="34" />
 
     <permission
-        android:name="fr.sancci.testecranjeux.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="fr.thomas.mobileAppPretJeux.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="fr.sancci.testecranjeux.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="fr.thomas.mobileAppPretJeux.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -25,10 +25,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.TestEcranJeux" >
         <activity
-            android:name="fr.sancci.testecranjeux.MainActivity"
+            android:name="fr.thomas.mobileAppPretJeux.ui.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.TestEcranJeux" >
@@ -44,7 +43,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="fr.sancci.testecranjeux.androidx-startup"
+            android:authorities="fr.thomas.mobileAppPretJeux.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

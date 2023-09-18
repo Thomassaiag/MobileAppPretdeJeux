@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "fr.sancci.testecranjeux"
+    namespace = "fr.thomas.mobileAppPretJeux"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "fr.sancci.testecranjeux"
+        applicationId = "fr.thomas.mobileAppPretJeux"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

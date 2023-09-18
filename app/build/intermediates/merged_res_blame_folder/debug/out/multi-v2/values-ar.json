@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "fr.sancci.testecranjeux.app-mergeDebugResources-49:/values-ar/values-ar.xml",
+            "outputFile": "fr.thomas.mobileAppPretJeux.app-mergeDebugResources-49:/values-ar/values-ar.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sandr\\.gradle\\caches\\transforms-3\\2f91f78aad29bc09bed2ae8766f472de\\transformed\\ui-release\\res\\values-ar\\values-ar.xml",
+                    "source": "C:\\Users\\Moi\\.gradle\\caches\\transforms-3\\2f91f78aad29bc09bed2ae8766f472de\\transformed\\ui-release\\res\\values-ar\\values-ar.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sandr\\.gradle\\caches\\transforms-3\\9cc0b765caf38179c734d10b72e03aed\\transformed\\material3-1.0.0\\res\\values-ar\\values-ar.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,130,206",
-                        "endColumns": "74,75,73",
-                        "endOffsets": "125,201,275"
-                    },
-                    "to": {
-                        "startLines": "11,14,16",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "989,1257,1418",
-                        "endColumns": "74,75,73",
-                        "endOffsets": "1059,1328,1487"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\sandr\\.gradle\\caches\\transforms-3\\c8117906e20d0ffa520fa3bda5248582\\transformed\\core-1.10.1\\res\\values-ar\\values-ar.xml",
+                    "source": "C:\\Users\\Moi\\.gradle\\caches\\transforms-3\\c8117906e20d0ffa520fa3bda5248582\\transformed\\core-1.10.1\\res\\values-ar\\values-ar.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "105,198,300,395,498,601,703,2216",
                         "endColumns": "92,101,94,102,102,101,113,100",
                         "endOffsets": "193,295,390,493,596,698,812,2312"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Moi\\.gradle\\caches\\transforms-3\\9cc0b765caf38179c734d10b72e03aed\\transformed\\material3-1.0.0\\res\\values-ar\\values-ar.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,130,206",
+                        "endColumns": "74,75,73",
+                        "endOffsets": "125,201,275"
+                    },
+                    "to": {
+                        "startLines": "11,14,16",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "989,1257,1418",
+                        "endColumns": "74,75,73",
+                        "endOffsets": "1059,1328,1487"
                     }
                 }
             ]

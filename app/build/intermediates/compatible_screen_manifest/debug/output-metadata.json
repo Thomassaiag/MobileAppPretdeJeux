@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "fr.sancci.testecranjeux",
+  "applicationId": "fr.thomas.mobileAppPretJeux",
   "variantName": "debug",
   "elements": []
 }
