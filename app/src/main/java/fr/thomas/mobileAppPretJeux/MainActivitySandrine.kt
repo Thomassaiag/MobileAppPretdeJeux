@@ -1,7 +1,6 @@
 package fr.thomas.mobileAppPretJeux
 
 
-
 import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -313,24 +312,4 @@ fun GamesScreenPreview() {
 }
 
 
-/**@OptIn(ExperimentalMaterial3Api::class)
-@Preview(showBackground = true)
-@Composable
-fun TopAppBarSamplePreview() {
-    TestEcranJeuxTheme {
-        // Utilisez Scaffold pour créer la mise en page principale de votre application
-        Scaffold(
-            topBar = {
-                // Ajoutez ici votre BottomBar ou NavigationBarSample
-                TopAppBarSample()
-            },
-            content = {
-                GamesScreen()
-            },
-            bottomBar = {
-                // Ajoutez ici votre BottomBar ou NavigationBarSample
-                NavigationBarSample()
-            },
-        )
-    }
-}**/
+

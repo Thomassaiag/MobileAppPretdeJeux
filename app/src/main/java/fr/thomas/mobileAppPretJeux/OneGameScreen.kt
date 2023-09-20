@@ -21,13 +21,14 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
 
+
 @Composable
 fun PhotoCarrousel(modifier: Modifier=Modifier){
 
     LazyRow(
         horizontalArrangement = Arrangement.spacedBy(10.dp),
         modifier=Modifier
-            .fillMaxSize()
+            .fillMaxWidth()
     ){
         items (10) { i->
             Image(
@@ -35,27 +36,7 @@ fun PhotoCarrousel(modifier: Modifier=Modifier){
                 contentDescription = stringResource(R.string.jeux_catane)
 
             )
-            Image(
-                painter = painterResource(id = R.drawable.catane),
-                contentDescription = stringResource(R.string.jeux_catane)
-            )
-            Image(
-                painter = painterResource(id = R.drawable.catane),
-                contentDescription = stringResource(R.string.jeux_catane)
-            )
-            Image(
-                painter = painterResource(id = R.drawable.catane),
-                contentDescription = stringResource(R.string.jeux_catane)
 
-            )
-            Image(
-                painter = painterResource(id = R.drawable.catane),
-                contentDescription = stringResource(R.string.jeux_catane)
-            )
-            Image(
-                painter = painterResource(id = R.drawable.catane),
-                contentDescription = stringResource(R.string.jeux_catane)
-            )
         }
     }
 
@@ -80,15 +61,15 @@ fun DescriptionCompleteJeuValeurs(modifier: Modifier=Modifier){
     Column (
         horizontalAlignment=Alignment.End,
         modifier=modifier
-            .padding(start = 12.dp)
+            .padding(start = 120.dp)
     ){
         Text(text = "Super Jeu",
         color = colorResource(id = R.color.monopoly_maroon)
         )
-        Text(text = "2-4 joueurs")
-        Text(text = "60min")
-        Text(text = "10 ans")
-        Text(text = "Oui")
+        Text(text = "2-4 joueurs",color = colorResource(id = R.color.monopoly_maroon))
+        Text(text = "60min",color = colorResource(id = R.color.monopoly_maroon))
+        Text(text = "10 ans",color = colorResource(id = R.color.monopoly_maroon))
+        Text(text = "Oui",color = colorResource(id = R.color.monopoly_maroon))
     }
 
 }
@@ -113,7 +94,7 @@ fun OneGameScreenApp(modifier: Modifier=Modifier){
         ){
         PhotoCarrousel()
         ToutesInfosJeux()
-        BottomBar()
+
     }
 }
 
